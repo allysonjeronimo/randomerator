@@ -1,3 +1,9 @@
+# randomerator
+
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/allysonjeronimo/game-engine-js/blob/master/LICENSE)
+
+A random number generator in ReactJS
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
