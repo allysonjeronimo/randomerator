@@ -4,6 +4,8 @@
 
 A random number generator in ReactJS
 
+![randomerator-01](https://user-images.githubusercontent.com/32485354/76084506-c565cf80-5f8e-11ea-9175-dfce3a01dd83.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
