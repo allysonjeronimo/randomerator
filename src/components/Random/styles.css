@@ -8,6 +8,7 @@
     margin: 0 auto;
     border-radius: 12px 12px 0 0;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
