@@ -1,3 +1,11 @@
+:root{
+    --color-gray: #aaa;
+    --color-light-gray: #ccc;
+    --color-green: limegreen;
+    --color-light-green: chartreuse;
+    --color-dark-green: forestgreen;
+}
+
 *{
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
@@ -20,7 +28,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #aaa;
+    background-color: var(--color-gray);
     border-radius: 12px 12px 0 0;
 }
 
@@ -40,8 +48,8 @@
 .content{
     width: 100%;
     background-color: #fff;
-    color: #aaa;
-    border: 1px solid #ccc;
+    color: var(--color-gray);
+    border: 1px solid var(--color-gray);
 }
 
 .form{
@@ -56,7 +64,7 @@
 .form a{
     width: 100%;
     padding: 2%;
-    background-color: forestgreen;
+    background-color: var(--color-dark-green);
     color: #fff;
     text-decoration: none;
     font-weight: 400;
@@ -70,10 +78,10 @@
 }
 
 .form a:hover{
-    background-color: limegreen;    
+    background-color: var(--color-green);   
 }
 .form a:active{
-    background-color: chartreuse;
+    background-color: var(--color-light-green);
 }
 
 .form input[type=text]{
@@ -81,12 +89,12 @@
     margin: 1% 2% 1% 2%;
     width: 50%;
     font-size: 1.5em;
-    color: #aaa;
-    border: 2px solid #aaa;
+    color: var(--color-gray);
+    border: 2px solid var(--color-gray);
 }
 
 .form input[type=text]:focus {
     outline: none !important;
-    border:1px solid limegreen;
-    box-shadow: 0 0 2px limegreen;
+    border:1px solid var(--color-green);
+    box-shadow: 0 0 2px var(--color-green);
 }
